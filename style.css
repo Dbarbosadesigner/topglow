@@ -1272,3 +1272,22 @@ img{
 section{
     overflow:hidden;
 }
+
+/*==============================editado (IMPORTANTE)============================================= */
+
+.heroSlider{
+    width:100%;
+    overflow:hidden;
+}
+
+.heroSlider .swiper-wrapper{
+    display:flex;
+}
+
+.heroSlider .swiper-slide{
+    flex-shrink:0;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
